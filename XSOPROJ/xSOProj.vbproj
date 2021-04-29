@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A239E1E5-4449-46EA-81D7-F5D48A52BFF4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>xSOProj.My.MyApplication</StartupObject>
+    <RootNamespace>xSOProj</RootNamespace>
+    <AssemblyName>xSOProj</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>nexvue.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\</OutputPath>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Dynamics.SL.Controls">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Windows\assembly\GAC_32\Microsoft.Dynamics.SL.Controls\8.0.0.0__31bf3856ad364e35\Microsoft.Dynamics.SL.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="Solomon.Kernel, Version=7.0.51005.0, Culture=neutral, PublicKeyToken=0d1ee8ec4f51a8cc, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Windows\assembly\GAC_32\Solomon.Kernel\8.0.0.0__31bf3856ad364e35\Solomon.Kernel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\customer.dh.vb">
+      <Link>customer.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\pjaddr.dh.vb">
+      <Link>pjaddr.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\pjbill.dh.vb">
+      <Link>pjbill.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\pjcont.dh.vb">
+      <Link>pjcont.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\pjemploy.dh.vb">
+      <Link>pjemploy.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\pjpent.dh.vb">
+      <Link>pjpent.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\pjpentem.dh.vb">
+      <Link>pjpentem.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\pjpentex.dh.vb">
+      <Link>pjpentex.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\pjproj.dh.vb">
+      <Link>pjproj.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\PJPROJEDD.dh.vb">
+      <Link>PJPROJEDD.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\pjprojem.dh.vb">
+      <Link>pjprojem.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\pjprojex.dh.vb">
+      <Link>pjprojex.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\pjrevcat.dh.vb">
+      <Link>pjrevcat.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\pjrevhdr.dh.vb">
+      <Link>pjrevhdr.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\pjrevtsk.dh.vb">
+      <Link>pjrevtsk.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\Program Files %28x86%29\Microsoft Dynamics\SL\Applications\VT\VB\APP\soaddress.dh.vb">
+      <Link>soaddress.dh.vb</Link>
+    </Compile>
+    <Compile Include="..\XBMUPLD\XPROJADD.DH.VB">
+      <Link>XPROJADD.DH.VB</Link>
+    </Compile>
+    <Compile Include="..\XINBASE\XINBASE.DH.VB">
+      <Link>XINBASE.DH.VB</Link>
+    </Compile>
+    <Compile Include="..\XINBTPL\XINBTPL.DH.VB">
+      <Link>XINBTPL.DH.VB</Link>
+    </Compile>
+    <Compile Include="C:\Program Files (x86)\Microsoft Dynamics\SL\SDK\VB\Microsoft.Dynamics.SL.SDK.vb">
+      <Link>Microsoft.Dynamics.SL.SDK.vb</Link>
+    </Compile>
+    <Compile Include="..\XBMUPLD\GetSub.BAS.VB">
+      <Link>GetSub.BAS.VB</Link>
+    </Compile>
+    <Compile Include="..\XBUDTPL\XBUDGTPL.DH.VB">
+      <Link>XBUDGTPL.DH.VB</Link>
+    </Compile>
+    <Compile Include="..\XCONTAC\XCONTACTS.DH.VB">
+      <Link>XCONTACTS.DH.VB</Link>
+    </Compile>
+    <Compile Include="..\XDONE00\XPROJEX.DH.VB">
+      <Link>XPROJEX.DH.VB</Link>
+    </Compile>
+    <Compile Include="..\xEntRel\XENTITY.DH.VB">
+      <Link>XENTITY.DH.VB</Link>
+    </Compile>
+    <Compile Include="..\XORDTPL\XORDTPL.DH.VB">
+      <Link>XORDTPL.DH.VB</Link>
+    </Compile>
+    <Compile Include="..\XRMRMNT\XRMR.DH.VB">
+      <Link>XRMR.DH.VB</Link>
+    </Compile>
+    <Compile Include="..\XRMRTPL\XRMRTPL.DH.VB">
+      <Link>XRMRTPL.DH.VB</Link>
+    </Compile>
+    <Compile Include="BUDGTPL_BAS.vb" />
+    <Compile Include="custclass.dh.vb" />
+    <Compile Include="INBASE_BAS.vb" />
+    <Compile Include="ORDTPL_BAS.vb" />
+    <Compile Include="RMTPL.BAS.vb" />
+    <Compile Include="pjcode.dh.vb" />
+    <Compile Include="sdo_misc.vb" />
+    <Compile Include="xCustSites.DH.VB" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="XPROJINV.sdo.vb" />
+    <Compile Include="XPROJOTHER.DH.VB" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="nexvue.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

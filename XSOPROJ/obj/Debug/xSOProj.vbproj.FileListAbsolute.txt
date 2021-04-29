@@ -1,0 +1,18 @@
+C:\Program Files (x86)\Microsoft Dynamics\SL\Applications\xSOProj.exe.config
+C:\Program Files (x86)\Microsoft Dynamics\SL\Applications\xSOProj.exe
+C:\Program Files (x86)\Microsoft Dynamics\SL\Applications\xSOProj.pdb
+C:\SOL2015\Diebold\XSOPROJ\obj\Debug\xSOProj.vbprojResolveAssemblyReference.cache
+C:\SOL2015\Diebold\XSOPROJ\obj\Debug\xSOProj.Form1.resources
+C:\SOL2015\Diebold\XSOPROJ\obj\Debug\xSOProj.Resources.resources
+C:\SOL2015\Diebold\XSOPROJ\obj\Debug\xSOProj.vbproj.GenerateResource.Cache
+C:\SOL2015\Diebold\XSOPROJ\obj\Debug\xSOProj.exe
+C:\SOL2015\Diebold\XSOPROJ\obj\Debug\xSOProj.pdb
+C:\Depot\NVUE-117 Securitas\Source Code\Source Code\Diebold Code\XSOPROJ\obj\Debug\xSOProj.Form1.resources
+C:\Depot\NVUE-117 Securitas\Source Code\Source Code\Diebold Code\XSOPROJ\obj\Debug\xSOProj.Resources.resources
+C:\Depot\NVUE-117 Securitas\Source Code\Source Code\Diebold Code\XSOPROJ\obj\Debug\xSOProj.vbproj.GenerateResource.Cache
+C:\Depot\NVUE-117 Securitas\Source Code\Source Code\Diebold Code\XSOPROJ\obj\Debug\xSOProj.exe
+C:\Depot\NVUE-117 Securitas\Source Code\Source Code\Diebold Code\XSOPROJ\obj\Debug\xSOProj.pdb
+C:\Depot\NVUE-117 Securitas\Source Code\Program Files (x86)\Microsoft Dynamics\SL\Applications\xSOProj.exe.config
+C:\Depot\NVUE-117 Securitas\Source Code\Program Files (x86)\Microsoft Dynamics\SL\Applications\xSOProj.exe
+C:\Depot\NVUE-117 Securitas\Source Code\Program Files (x86)\Microsoft Dynamics\SL\Applications\xSOProj.pdb
+C:\Depot\NVUE-117 Securitas\Source Code\Source Code\Diebold Code\XSOPROJ\obj\Debug\xSOProj.vbprojResolveAssemblyReference.cache

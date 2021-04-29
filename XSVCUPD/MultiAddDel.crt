@@ -1,0 +1,37 @@
+--TempTables
+if exists (select * from sysobjects where id = object_id('dbo.XMultiDeletes') and sysstat & 0xf = 3)
+--this is a dummy table with zero data. Purpose to faciliate changing Delete fields
+DROP TABLE XMultiDeletes
+go
+create table XMultiDeletes
+( 
+CancelCode		char(10),
+ServItemID		char(30),
+Descr			char(60),
+ActiveDate		smalldatetime,
+EffectDate		smalldatetime,
+RMRAmt			float,
+InvPrintSuppress smallint,
+XTB_LineNbr		smallint,
+tstamp			timestamp)
+go
+ 
+
+if exists (select * from sysobjects where id = object_id('dbo.XMultiAdds') and sysstat & 0xf = 3)
+--this is a dummy table with zero data. Purpose to faciliate changing Delete fields
+DROP TABLE XMultiAdds
+go
+create table XMultiAdds
+( 
+ServItemID		char(30),
+Descr			char(60),
+Duration		char(30),
+EffectDate		smalldatetime,
+WarrantyEndDate	smalldatetime,
+WarrantyStartDate	smalldatetime,
+RMRAmt			float,
+InvPrintSuppress smallint,
+SystemType		char(30),
+tstamp			timestamp)
+go
+ 

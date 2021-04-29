@@ -1,0 +1,7 @@
+C:\TFS\SL Projects\NVUE-117 Securitas\Source Code\Source Code\Program Files (x86)\Microsoft Dynamics\SL\Applications\XSNUPDT.exe
+C:\TFS\SL Projects\NVUE-117 Securitas\Source Code\Source Code\Program Files (x86)\Microsoft Dynamics\SL\Applications\XSNUPDT.pdb
+C:\TFS\SL Projects\NVUE-117 Securitas\Source Code\Source Code\Diebold Code\XSNUPDT\obj\Debug\XSNUPDT.Form1.resources
+C:\TFS\SL Projects\NVUE-117 Securitas\Source Code\Source Code\Diebold Code\XSNUPDT\obj\Debug\XSNUPDT.Resources.resources
+C:\TFS\SL Projects\NVUE-117 Securitas\Source Code\Source Code\Diebold Code\XSNUPDT\obj\Debug\XSNUPDT.vbproj.GenerateResource.Cache
+C:\TFS\SL Projects\NVUE-117 Securitas\Source Code\Source Code\Diebold Code\XSNUPDT\obj\Debug\XSNUPDT.exe
+C:\TFS\SL Projects\NVUE-117 Securitas\Source Code\Source Code\Diebold Code\XSNUPDT\obj\Debug\XSNUPDT.pdb
