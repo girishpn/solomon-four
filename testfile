@@ -1,3 +1,8 @@
 access_key = AKIAJSIE27KKMHXI3BJQ
 
 secret = 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
+
+Name = sivastoragefsc
+key = AppINymoucpJLS14NT4GGOrcq/Kz8yJunddoDaIrx1ichP7mFP3ZAcf0jxe/s75OCNG0LC/+Ra4KuK9COErMig==
+
+Connection String = DefaultEndpointsProtocol=https;AccountName=sivastoragefsc;AccountKey=AppINymoucpJLS14NT4GGOrcq/Kz8yJunddoDaIrx1ichP7mFP3ZAcf0jxe/s75OCNG0LC/+Ra4KuK9COErMig==;EndpointSuffix=core.windows.net
